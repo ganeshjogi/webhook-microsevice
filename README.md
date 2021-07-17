@@ -54,6 +54,7 @@ If you need to update `npm`, you can make it using `npm` .  After running the fo
 For testing the project you can use the api platforms like postman to test apis developed in this project
 
 1. List of all target urls
+    
     API : http://localhost:8000/admin/list 
 
     Method : GET
@@ -62,10 +63,11 @@ For testing the project you can use the api platforms like postman to test apis 
 
 
 2. Register New target url
-    API : http://localhost:8000/admin/register
+    
+   API : http://localhost:8000/admin/register
 
-    Method : POST
-            
+   Method : POST
+             
     Parameters : targetUrl
 
 
@@ -79,7 +81,7 @@ For testing the project you can use the api platforms like postman to test apis 
     Parameters : id
 
 
-4. Delete target url
+4. Delete target url                               
         
     API : http://localhost:8000/admin/delete
     
