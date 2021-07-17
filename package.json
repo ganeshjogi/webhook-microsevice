@@ -1,0 +1,19 @@
+{
+  "name": "web-hooks",
+  "version": "1.0.0",
+  "description": "web hook implementation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "moleculer": "^0.14.15",
+    "mongoose": "^5.13.2"
+  }
+}
