@@ -42,7 +42,7 @@ exports.list = async (req, res) => {
 
 // This function helps to update the webhook target url by takng the ID
 exports.update = async (req, res) => {
-  const hook = await broker.call('webhooks.update',{id:req.body.id,newTargetUrl:req.body.newTargetUrl});
+  const hook = await broker.call('webhooks.update',{id:req.body.id,targetUrl:req.body.newTargetUrl});
   if (hook) {
     res.status(200).json({
       status: "success",

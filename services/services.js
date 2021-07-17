@@ -52,10 +52,11 @@ module.exports = {
         update:{
             params:{
                 id:'string',
-                newTargetUrl:'string'
+                targetUrl:'string'
             },
             async handler(ctx){
-                return await Hook.findByIdAndUpdate(ctx.params.id, ctx.params.newTargetUrl);
+                console.log(ctx.params);
+                return await Hook.findByIdAndUpdate(ctx.params.id, ctx.params);
             }
         },
         // this action helps to delete the webhook
