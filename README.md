@@ -48,4 +48,38 @@ If you need to update `npm`, you can make it using `npm` .  After running the fo
 ## Running the project
 
     $ npm start
+    
+# Testing project
+
+For testing the project you can use the api platforms like postman to test apis developed in this project
+
+1. List of all target urls
+        API : http://localhost:8000/admin/list
+        Method : GET
+        Parameters : None
+
+
+2. Register New target url
+        API : http://localhost:8000/admin/register
+        Method : POST
+        Parameters : targetUrl
+
+
+3. Update existing target url
+        API : http://localhost:8000/admin/update
+        Method : PATCH
+        Parameters : id
+
+
+4. Delete target url
+        API : http://localhost:8000/admin/delete
+        Method : DELETE
+        Parameters : id
+
+
+5. Web hook trigger
+        API : http://localhost:8000/ip
+        Method : POST
+        Parameters : ipAddress 
+        
 
